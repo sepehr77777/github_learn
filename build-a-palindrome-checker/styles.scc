@@ -1,0 +1,90 @@
+body {
+ body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start; /* بالا */
+    justify-content: center; /* وسط افقی */
+    position: relative;
+  }
+ background-color:#0A0A23;
+}
+#first{
+    width:200px;
+    margin-top: 60px;         /* کمی فاصله از بالا */
+    margin-left: 150px;
+}
+.freecodecamp-logo{
+width:100%  
+}
+#sefid{
+  background-color:#FFFFFF;
+   width: 300px;
+      background-color: #f9f9f9;
+      padding: 40px;
+      margin: 30PX auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 
+ label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+     .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .palindrome-input {
+      flex: 1;
+      padding: 8px;
+      font-size: 16px;
+    }
+    palindrome-btn {
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .palindrome-btn:hover {
+      background-color: #0056b3;
+    }
+
+    #result-div {
+      background-color:#FFFFFF;
+      padding:0px;
+      border-radius: 4px;
+       margin-top:30px;
+    }
+     #result {
+      margin-top:0px;
+      color:ffffff;
+      font-weight: bold;
+    }
+    .palindrome-definition-div{
+      background-color:#00471B;
+     width: min(100vw, 350px);
+    font-size: 1.3rem;
+    min-height: 140px;
+    background-color: #00471b;
+    margin-top: -20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex
+;
+    align-items: center;
+    }
+    .palindrome-definition{
+     vertical-align: middle;
+    text-align: center;
+    color:#D0D0D5; 
+    }
+    .title{
+      color:#D0D0D5
+    }
+    #h{width: min(100vw, 350px);}
